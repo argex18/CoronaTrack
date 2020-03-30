@@ -1,0 +1,34 @@
+Project structure
+We need:
+    -- A folder named "Data"
+    ==== data.json
+    -- A folder named "Archives" for previous tracks
+    ==== tracks.zip
+
+Code structure (Object oriented or Procedure oriented?)
+We need:
+    -- A function for scraping html data
+    ==== scrape_data.py
+    -- A function for creating the json file
+    ==== create_json.py
+    -- A function for sending email daily
+    ==== send_email.py
+    -- A function for compressing tracks in .zip format
+    ==== zip_track.py
+
+Object oriented method:
+    -- Creating a unique class named "CoronaTrack"
+    where inserting the previous methods
+    ==== CoronaTrack.py
+
+Procedure oriented method:
+    1) -- Creating 4 different files for every function we need
+        ==== scrape_data.py
+        ==== create_json.py
+        ==== send_email.py
+        ==== zip_track.py
+
+    2) -- Creating a unique big python library where putting all functions (C/C++ oriented)
+        ==== library.py
+
+DATA SOURCE: https://www.worldometers.info/coronavirus/#countries
