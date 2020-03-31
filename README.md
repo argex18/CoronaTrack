@@ -50,8 +50,7 @@ __Warning: I'm still implementing the function for email sending.
 # Once completed this last passage, you got it! Simply run the script by digiting on your terminal:
     cd path_to_CoronaTrack_folder
     python .\main.py
-# First time you run the script, it will be asked you to sign in your Google account and give to the app you
-# created before the permission to send emails as you. Accept to gain the access token.
+# First time you run the script, it will be asked you to sign in your Google account and give to the app you created before the permission to send emails as you. Accept to gain the access token.
 
 # The access token should last for 100 days by default. Then it will be necessary refreshing it.
 # Obviously, if you refuse, the script will generate an error. Please, trust me and don't refuse;)
